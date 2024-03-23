@@ -1,0 +1,455 @@
+
+
+/* BESTSELLERS CSS */
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: smaller;
+}
+.main_second{
+    /* border: 1px solid red; */
+    
+    background-color:rgb(12, 12, 12) ;
+    height: auto;
+    /* position: relative; */
+    width: 100%;
+    padding: 0px 0px 50px 0px;
+}
+
+.heading_bestsellers{
+    height: 30px;
+    font-size: 25px;
+    padding: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.second_slider {
+    /* border: 1px solid rgb(43, 0, 255); */
+    /* position: relative; */
+    width: 90%;
+    height: 400px;
+}
+.product_slider {
+    /* border: 1px solid rgb(72, 255, 0); */
+    overflow: hidden;
+    height: 100%;
+}
+.product_slides {
+    /* border: 1px solid rgb(0, 0, 0); */
+    display: flex;
+    transition: transform 0.5s ease;
+    /* padding: 10px; */
+    height: 100%;
+    
+}
+.product_slide {
+    /* border: 1px solid red; */
+    flex: 0 0 auto;
+    margin: 20px;
+    height: 90%;
+    width: 275px;
+}
+.prev1 {
+    position: absolute;
+    background-color: white;
+    color: red;
+    height: 40px;
+    width: 40px;
+    right: 30px;
+    display: block;
+    margin-top: -15%;
+    border-radius: 100%;
+}
+.next1{
+    position: absolute;
+    background-color: white;
+    color: red;
+    height: 40px;
+    width: 40px;
+    left: 30px;
+    display: block;
+    margin-top: -15%;
+    border-radius: 100%;
+}
+.image{
+    background-color: rgb(253, 253, 253);
+    gap: 40px;
+    color: black;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 8px;
+    
+}
+.product_slide img {
+    width: 60%;
+    border-radius: 10px;
+    margin-top: 5px;
+    
+}
+.product_slide .product-details {
+    padding:15px 5px 5px 5px;
+    font-size: smaller;
+    
+}
+
+.product_slide .product-details p {
+    margin-top: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 50%;
+    height: 30px;
+    margin-top: 20px;
+    display: block;
+    padding: 10px 10px 0px 0px;
+}
+
+
+
+
+/* HOLI SPECIAL DEALS! CSS */
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: smaller;
+}
+.main_forth{
+    /* border: 1px solid red; */
+    
+    background-color:rgb(12, 12, 12);
+    height: auto;
+    /* position: relative; */
+    width: 100%;
+    padding: 0px 0px 50px 0px;
+}
+.heading_holi{
+    height: 30px;
+    font-size: 25px;
+    padding: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.forth_slider {
+    /* border: 1px solid rgb(43, 0, 255); */
+    /* position: relative; */
+    width: 90%;
+    height: 400px;
+}
+.holi_slider {
+    /* border: 1px solid rgb(72, 255, 0); */
+    overflow: hidden;
+    height: 100%;
+}
+.holi {
+    /* border: 1px solid rgb(0, 0, 0); */
+    display: flex;
+    transition: transform 0.5s ease;
+    /* padding: 10px; */
+    height: 100%;
+    
+}
+.holiproduct_slide {
+    /* border: 1px solid red; */
+    flex: 0 0 auto;
+    margin: 20px;
+    height: 90%;
+    width: 278px;
+}
+.prev2 {
+    position: absolute;
+    background-color: white;
+    color: red;
+    height: 40px;
+    width: 40px;
+    right: 30px;
+    display: block;
+    margin-top: -15%;
+    border-radius: 100%;
+}
+.next2{
+    position: absolute;
+    background-color: white;
+    color: red;
+    height: 40px;
+    width: 40px;
+    left: 30px;
+    display: block;
+    margin-top: -15%;
+    border-radius: 100%;
+}
+.image{
+    background-color: rgb(253, 253, 253);
+    gap: 40px;
+    color: black;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 8px;
+    
+}
+.holiproduct_slide img {
+    width: 60%;
+    border-radius: 10px;
+    margin-top: 5px;
+    
+}
+.holiproduct_slide .product-details {
+    padding:15px 5px 5px 5px;
+    font-size: smaller;
+    
+}
+
+.holiproduct_slide .product-details p {
+    margin-top: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 50%;
+    height: 30px;
+    margin-top: 20px;
+    display: block;
+    padding: 10px 10px 0px 0px;
+}
+
+
+
+
+
+/* HOT DEALS CSS */
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: smaller;
+}
+.main_five{
+    /* border: 1px solid red; */
+    
+    background-color: rgb(228, 214, 214);
+    height: auto;
+    /* position: relative; */
+    width: 100%;
+    padding: 0px 0px 50px 0px;
+}
+.heading_hotdeals{
+    color: black;
+    height: 30px;
+    font-size: 25px;
+    padding: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.five_slider {
+    /* border: 1px solid rgb(43, 0, 255); */
+    /* position: relative; */
+    width: 90%;
+    height: 400px;
+}
+.hotdeals_slider {
+    /* border: 1px solid rgb(72, 255, 0); */
+    overflow: hidden;
+    height: 100%;
+}
+.hot_deals {
+    /* border: 1px solid rgb(0, 0, 0); */
+    display: flex;
+    transition: transform 0.5s ease;
+    /* padding: 10px; */
+    height: auto;
+    
+}
+.hotdeals_slide {
+    /* border: 1px solid red; */
+    flex: 0 0 auto;
+    margin: 20px;
+    height: auto;
+    width: 31%;
+}
+.prev3 {
+    position: absolute;
+    background-color: white;
+    color: red;
+    height: 40px;
+    width: 40px;
+    right: 30px;
+    display: block;
+    margin-top: -20%;
+    border-radius: 100%;
+}
+.next3{
+    position: absolute;
+    background-color: white;
+    color: red;
+    height: 40px;
+    width: 40px;
+    left: 30px;
+    display: block;
+    margin-top: -20%;
+    border-radius: 100%;
+}
+.image{
+    background-color: rgb(253, 253, 253);
+    gap: 40px;
+    color: black;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 8px;
+    
+}
+.hotdeals_slide img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 5px;
+    
+}
+/* .hotdeals_slide .product-details {
+    padding:15px 5px 5px 5px;
+    font-size: smaller;
+    
+} */
+
+/* .hotdeals_slide .product-details p {
+    margin-top: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 50%;
+    height: 30px;
+    margin-top: 20px;
+    display: block;
+    padding: 10px 10px 0px 0px;
+} */
+
+
+
+
+
+/* JUST-IN CSS */
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: smaller;
+}
+.main_six{
+    /* border: 1px solid red; */
+    
+    background-color:rgb(12, 12, 12);
+    height: auto;
+    /* position: relative; */
+    width: 100%;
+    padding: 0px 0px 50px 0px;
+}
+.heading_justIn{
+    height: 30px;
+    font-size: 25px;
+    padding: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.justIn_slider {
+    /* border: 1px solid rgb(43, 0, 255); */
+    /* position: relative; */
+    width: 90%;
+    height: 400px;
+}
+.just_slider {
+    /* border: 1px solid rgb(72, 255, 0); */
+    overflow: hidden;
+    height: 100%;
+}
+.justIn {
+    /* border: 1px solid rgb(0, 0, 0); */
+    display: flex;
+    transition: transform 0.5s ease;
+    /* padding: 10px; */
+    height: 100%;
+    
+}
+.justIn_slide {
+    /* border: 1px solid red; */
+    flex: 0 0 auto;
+    margin: 20px;
+    height: 90%;
+    width: 278px;
+}
+.prev4 {
+    position: absolute;
+    background-color: white;
+    color: red;
+    height: 40px;
+    width: 40px;
+    right: 30px;
+    display: block;
+    margin-top: -15%;
+    border-radius: 100%;
+}
+.next4 {
+    position: absolute;
+    background-color: white;
+    color: red;
+    height: 40px;
+    width: 40px;
+    left: 30px;
+    display: block;
+    margin-top: -15%;
+    border-radius: 100%;
+}
+.image{
+    background-color: rgb(253, 253, 253);
+    gap: 40px;
+    color: black;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 8px;
+    
+}
+.justIn_slide img {
+    width: 60%;
+    border-radius: 10px;
+    margin-top: 5px;
+    
+}
+.justIn_slide .product-details {
+    padding:15px 5px 5px 5px;
+    font-size: smaller;
+    
+}
+
+.justIn_slide .product-details p {
+    margin-top: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 50%;
+    height: 30px;
+    margin-top: 20px;
+    display: block;
+    padding: 10px 10px 0px 0px;
+}
+
+
+
+
+
+/* YOUTUBE VIDEO */
+.youtube_video {
+    /* border: 1px solid rgb(43, 0, 255); */
+    /* position: relative; */
+    width: 90%;
+    height: 400px;
+}
+.youtube_video img{
+    height: 400px;
+    width: 80%;
+    border-radius: 10px;
+}

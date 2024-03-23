@@ -6,7 +6,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="search.css">
-    <link rel="stylesheet" href="fetch.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="holi.css"> -->
 </head>
 <body>
     
@@ -83,6 +84,7 @@
     <div id="main">
 
         <div id="main_first">
+            
             <div>
                 <h2>CLUB VELLVETTE</h2>
             </div>
@@ -91,14 +93,20 @@
             </div>
         </div>
 
-
-        <div id="main_second">
-            <div id="first_product">
-                <div><h2>BESTSELLERS</h2></div>
-                <div id="product_Slider"></div>
+        <center>
+        <div class="main_second">
+            <div class="heading_bestsellers">BESTSELLERS</div>
+            <div class="second_slider">
+                <div class="product_slider">
+                    <div class="product_slides">
+                    </div>
+                </div>
             </div>
+            <button class="prev1" onclick="changeSlide(-1)">></button>
+            <button class="next1" onclick="changeSlide(1)"><</button>
         </div>
-
+        </center>
+        
 
         <div id="main_third">
             <div>
@@ -110,12 +118,19 @@
         </div>
         
 
-        <div id="main_second">
-            <div id="first_product">
-                <div><h2>HOLI SPECIAL DEALS!</h2></div>
-                <div></div>
+        <center>
+            <div class="main_forth">
+                <div class="heading_holi">HOLI SPECIAL DEALS!</div>
+                <div class="forth_slider">
+                    <div class="holi_slider">
+                        <div class="holi">
+                        </div>
+                    </div>
+                </div>
+                <button class="prev2" onclick="holichangeSlide(-1)">></button>
+                <button class="next2" onclick="holichangeSlide(1)"><</button>
             </div>
-        </div>
+        </center>
 
 
         <div id="main_third">
@@ -127,11 +142,51 @@
             </div>
         </div>
 
+        <center>
+            <div class="main_five">
+                <div class="heading_hotdeals">HOT-DEALS</div>
+                <div class="five_slider">
+                    <div class="hotdeals_slider">
+                        <div class="hot_deals">
+                        </div>
+                    </div>
+                </div>
+                <button class="prev3" onclick="hotchangeSlide(-1)">></button>
+                <button class="next3" onclick="hotchangeSlide(1)"><</button>
+            </div>
+        </center>
         
+        <center>
+            <div class="main_six">
+                <div class="heading_justIn">JUST-IN</div>
+                <div class="justIn_slider">
+                    <div class="just_slider">
+                        <div class="justIn">
+                        </div>
+                    </div>
+                </div>
+                <button class="prev4" onclick="justinchangeSlide(-1)">></button>
+                <button class="next4" onclick="justinchangeSlide(1)"><</button>
+            </div>
+        </center>
+
+        <center>
+            <div class="main_five">
+                <div class="heading_hotdeals">LA LA LOVE 18HR LIQUID LIPSTICK | 6 NEW SHADES</div>
+                <div class="youtube_video">
+                    
+                    <img src="https://in.sugarcosmetics.com/_next/image?url=https://d32baadbbpueqt.cloudfront.net/Homepage/57c6031c-5120-45cc-b7d3-9c1f74f0e4c4.png&w=1920&q=75" alt="">
+                    <source src="">
+                </div>
+                <!-- <button class="prev3" onclick="hotchangeSlide(-1)">></button> -->
+                <!-- <button class="next3" onclick="hotchangeSlide(1)"><</button> -->
+            </div>
+        </center>
+
     </div>
 </body>
 <script src="slider.js"></script>
-<script src="search.js"></script>
 <script src="login.js"></script>
-<script src="fetch.js"></script>
+<script src="script.js"></script>
+<!-- <script src="holi.js"></script> -->
 </html>
