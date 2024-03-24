@@ -229,7 +229,7 @@ body{
     color: white;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: smaller;
-}
+} 
 .main_five{
     /* border: 1px solid red; */
     
@@ -452,4 +452,564 @@ body{
     height: 400px;
     width: 80%;
     border-radius: 10px;
+}
+
+
+
+/*  SUPER SAVES CSS*/
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: smaller;
+}
+.main_seven{
+    /* border: 1px solid red; */
+    
+    background-color:rgb(12, 12, 12);
+    height: auto;
+    /* position: relative; */
+    width: 100%;
+    padding: 0px 0px 50px 0px;
+}
+.heading_super{
+    height: 30px;
+    font-size: 25px;
+    padding: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.super_slider {
+    /* border: 1px solid rgb(43, 0, 255); */
+    /* position: relative; */
+    width: 90%;
+    height: 400px;
+}
+.supersaver_slider {
+    /* border: 1px solid rgb(72, 255, 0); */
+    overflow: hidden;
+    height: 100%;
+}
+.super {
+    /* border: 1px solid rgb(0, 0, 0); */
+    display: flex;
+    transition: transform 0.5s ease;
+    /* padding: 10px; */
+    height: 100%;
+    
+}
+.super_slide {
+    /* border: 1px solid red; */
+    flex: 0 0 auto;
+    margin: 20px;
+    height: 90%;
+    width: 278px;
+}
+.prev4 {
+    position: absolute;
+    background-color: white;
+    color: red;
+    height: 40px;
+    width: 40px;
+    right: 30px;
+    display: block;
+    margin-top: -15%;
+    border-radius: 100%;
+}
+.next4 {
+    position: absolute;
+    background-color: white;
+    color: red;
+    height: 40px;
+    width: 40px;
+    left: 30px;
+    display: block;
+    margin-top: -15%;
+    border-radius: 100%;
+}
+.image{
+    background-color: rgb(253, 253, 253);
+    gap: 40px;
+    color: black;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 8px;
+    
+}
+.super_slide img {
+    width: 60%;
+    border-radius: 10px;
+    margin-top: 5px;
+    
+}
+.super_slide .product-details {
+    padding:15px 5px 5px 5px;
+    font-size: smaller;
+    
+}
+
+.super_slide .product-details p {
+    margin-top: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 50%;
+    height: 30px;
+    margin-top: 20px;
+    display: block;
+    padding: 10px 10px 0px 0px;
+}
+
+
+
+
+
+
+
+/* TOP PICKS OF THE WEEK */
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: smaller;
+}
+.main_eight{
+    /* border: 1px solid red; */
+    
+    background-color: rgb(228, 214, 214);
+    height: auto;
+    /* position: relative; */
+    width: 100%;
+    padding: 0px 0px 50px 0px;
+}
+.heading_topicks{
+    height: 30px;
+    font-size: 25px;
+    color: black;
+    padding: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.eight_slider {
+    /* border: 1px solid rgb(43, 0, 255); */
+    /* position: relative; */
+    width: 90%;
+    height: 400px;
+}
+.toppicks_slider {
+    /* border: 1px solid rgb(72, 255, 0); */
+    overflow: hidden;
+    height: 100%;
+}
+.toppicks {
+    /* border: 1px solid rgb(0, 0, 0); */
+    display: flex;
+    transition: transform 0.5s ease;
+    /* padding: 10px; */
+    height: auto;
+    
+}
+.toppicks_slide {
+    /* border: 1px solid red; */
+    flex: 0 0 auto;
+    margin: 20px;
+    height: auto;
+    width: 31%;
+}
+.prev8 {
+    position: absolute;
+    background-color: white;
+    color: red;
+    height: 40px;
+    width: 40px;
+    right: 30px;
+    display: block;
+    margin-top: -20%;
+    border-radius: 100%;
+}
+.next8{
+    position: absolute;
+    background-color: white;
+    color: red;
+    height: 40px;
+    width: 40px;
+    left: 30px;
+    display: block;
+    margin-top: -20%;
+    border-radius: 100%;
+}
+.image{
+    background-color: rgb(253, 253, 253);
+    gap: 40px;
+    color: black;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 8px;
+    
+}
+.toppicks_slide img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 5px;
+    
+}
+/* .toppicks_slide .product-details {
+    padding:15px 5px 5px 5px;
+    font-size: smaller;
+    
+} */
+
+/* .toppicks_slide .product-details p {
+    margin-top: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 50%;
+    height: 30px;
+    margin-top: 20px;
+    display: block;
+    padding: 10px 10px 0px 0px;
+} */
+
+
+
+
+
+
+
+/* SUGAR BEAUTY BLOG */
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: smaller;
+}
+.main_nine{
+    /* border: 1px solid red; */
+    
+    background-color: rgb(228, 214, 214);
+    height: auto;
+    /* position: relative; */
+    width: 100%;
+    padding: 0px 0px 50px 0px;
+}
+.heading_sugarBeauty{
+    color: black;
+    height: 30px;
+    font-size: 25px;
+    padding: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.nine_slider {
+    /* border: 1px solid rgb(43, 0, 255); */
+    /* position: relative; */
+    width: 90%;
+    height: 400px;
+}
+.sugarBeauty_slider {
+    /* border: 1px solid rgb(72, 255, 0); */
+    overflow: hidden;
+    height: 100%;
+}
+.sugarBeauty {
+    /* border: 1px solid rgb(0, 0, 0); */
+    display: flex;
+    transition: transform 0.5s ease;
+    /* padding: 10px; */
+    height: auto;
+    
+}
+.sugarBeauty_slide {
+    /* border: 1px solid red; */
+    flex: 0 0 auto;
+    margin: 20px;
+    height: auto;
+    width: 31%;
+}
+.prev9 {
+    position: absolute;
+    background-color: white;
+    color: red;
+    height: 40px;
+    width: 40px;
+    right: 30px;
+    display: block;
+    margin-top: -20%;
+    border-radius: 100%;
+}
+.next9{
+    position: absolute;
+    background-color: white;
+    color: red;
+    height: 40px;
+    width: 40px;
+    left: 30px;
+    display: block;
+    margin-top: -20%;
+    border-radius: 100%;
+}
+.image{
+    background-color: rgb(253, 253, 253);
+    gap: 40px;
+    color: black;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 8px;
+    
+}
+.sugarBeauty_slide img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 5px;
+    
+}
+/* .sugarBeauty_slide .product-details {
+    padding:15px 5px 5px 5px;
+    font-size: smaller;
+    
+} */
+
+/* .sugarBeauty_slide .product-details p {
+    margin-top: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 50%;
+    height: 30px;
+    margin-top: 20px;
+    display: block;
+    padding: 10px 10px 0px 0px;
+} */
+
+
+
+
+
+
+
+/* SKINCARE BASICS CSS */
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: smaller;
+}
+.main_ten{
+    /* border: 1px solid red; */
+    
+    background-color:rgb(12, 12, 12);
+    height: auto;
+    /* position: relative; */
+    width: 100%;
+    padding: 0px 0px 50px 0px;
+}
+.heading_skincare{
+    height: 30px;
+    font-size: 25px;
+    padding: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.skincare_slider {
+    /* border: 1px solid rgb(43, 0, 255); */
+    /* position: relative; */
+    width: 90%;
+    height: 400px;
+}
+.skin_slider {
+    /* border: 1px solid rgb(72, 255, 0); */
+    overflow: hidden;
+    height: 100%;
+}
+.skin {
+    /* border: 1px solid rgb(0, 0, 0); */
+    display: flex;
+    transition: transform 0.5s ease;
+    /* padding: 10px; */
+    height: 100%;
+    
+}
+.skin_slide {
+    /* border: 1px solid red; */
+    flex: 0 0 auto;
+    margin: 20px;
+    height: 90%;
+    width: 278px;
+}
+.prev10 {
+    position: absolute;
+    background-color: white;
+    color: red;
+    height: 40px;
+    width: 40px;
+    right: 30px;
+    display: block;
+    margin-top: -15%;
+    border-radius: 100%;
+}
+.next10 {
+    position: absolute;
+    background-color: white;
+    color: red;
+    height: 40px;
+    width: 40px;
+    left: 30px;
+    display: block;
+    margin-top: -15%;
+    border-radius: 100%;
+}
+.image{
+    background-color: rgb(253, 253, 253);
+    gap: 40px;
+    color: black;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 8px;
+    
+}
+.skin_slide img {
+    width: 60%;
+    border-radius: 10px;
+    margin-top: 5px;
+    
+}
+.skin_slide .product-details {
+    padding:15px 5px 5px 5px;
+    font-size: smaller;
+    
+}
+
+.skin_slide .product-details p {
+    margin-top: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 50%;
+    height: 30px;
+    margin-top: 20px;
+    display: block;
+    padding: 10px 10px 0px 0px;
+}
+
+
+
+
+
+
+
+
+/* MERCH STATION BASICS CSS */
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: smaller;
+}
+.main_merch{
+    /* border: 1px solid red; */
+    
+    background-color: black(251, 249, 249);
+    height: auto;
+    /* position: relative; */
+    width: 100%;
+    padding: 0px 0px 50px 0px;
+}
+.heading_merchStation{
+    height: 30px;
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.merchStation_slider {
+    /* border: 1px solid rgb(43, 0, 255); */
+    /* position: relative; */
+    width: 90%;
+    height: 400px;
+}
+.merch_slider {
+    /* border: 1px solid rgb(72, 255, 0); */
+    overflow: hidden;
+    height: 100%;
+}
+.merch {
+    /* border: 1px solid rgb(0, 0, 0); */
+    display: flex;
+    transition: transform 0.5s ease;
+    /* padding: 10px; */
+    height: 100%;
+    
+}
+.merch_slide {
+    /* border: 1px solid red; */
+    flex: 0 0 auto;
+    margin: 20px;
+    height: 90%;
+    width: 278px;
+}
+.prev11 {
+    position: absolute;
+    background-color: white;
+    color: red;
+    height: 40px;
+    width: 40px;
+    right: 30px;
+    display: block;
+    margin-top: -15%;
+    border-radius: 100%;
+}
+.next11 {
+    position: absolute;
+    background-color: white;
+    color: red;
+    height: 40px;
+    width: 40px;
+    left: 30px;
+    display: block;
+    margin-top: -15%;
+    border-radius: 100%;
+}
+.image{
+    background-color: rgb(253, 253, 253);
+    gap: 40px;
+    color: black;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 8px;
+    
+}
+.merch_slide img {
+    width: 60%;
+    border-radius: 10px;
+    margin-top: 5px;
+    
+}
+.merch_slide .product-details {
+    padding:15px 5px 5px 5px;
+    font-size: smaller;
+    
+}
+
+.merch_slide .product-details p {
+    margin-top: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 50%;
+    height: 30px;
+    margin-top: 20px;
+    display: block;
+    padding: 10px 10px 0px 0px;
 }
