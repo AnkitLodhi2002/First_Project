@@ -17,12 +17,19 @@
 #navInput>input{
     width: 500px;
     height: 30px;
-    border-radius: 8px 0px 0px 8px;
-    border: black;
+    border-radius: 4px 0px 0px 4px;
+    border: 1px solid whitesmoke;
+    background-color: rgb(112, 110, 110);
 }
+#navInput>input::placeholder{
+    color: white;
+}
+/* #input:hover{
+    background-color: red;
+} */
 button{
     height: 36px;
-    border-radius: 0px 8px 8px 0px; 
+    border-radius: 0px 4px 4px 0px; 
     margin-left: -6px;
 }
 #first-section>div>img{
