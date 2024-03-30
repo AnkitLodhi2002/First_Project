@@ -26,8 +26,8 @@ fetch('db.json')
 function changeSlide(direction) {
   const slides = document.querySelectorAll('.product_slide');
   const totalSlides = slides.length;
-  currentIndex = (currentIndex + direction + totalSlides) % totalSlides;
-  const offset = -currentIndex *100;
+  currentIndex = (currentIndex + direction *4 + totalSlides) % totalSlides;
+  const offset = -currentIndex *25;
   slidesContainer.style.transform = `translateX(${offset}%)`;
 }
 
@@ -54,13 +54,6 @@ fetch('db.json')
       holislides.appendChild(holislideElement);
     });
   });
-// function holichangeSlide(direction) {
-//   const slides = document.querySelectorAll('.holiproduct_slide');
-//   const totalSlides = slides.length;
-//   currentIndex = (currentIndex + direction + totalSlides) % totalSlides;
-//   const offset = -currentIndex *100;
-//   slidesContainer.style.transform = `translateX(${offset}%)`;
-// }
 
 
 
@@ -88,13 +81,10 @@ fetch('db.json')
 function hotchangeSlide(direction) {
   const hotslides = document.querySelectorAll('.hotdeals_slide');
   const hottotalSlides = hotslides.length;
-  hotcurrentIndex = (hotcurrentIndex + direction + hottotalSlides) % hottotalSlides;
-  const offset = -hotcurrentIndex *100;
+  hotcurrentIndex = (hotcurrentIndex + direction *3 + hottotalSlides) % hottotalSlides;
+  const offset = -hotcurrentIndex *33;
   hot_deals.style.transform = `translateX(${offset}%)`;
 }
-
-
-
 
 
 
@@ -123,13 +113,10 @@ fetch('db.json')
 function justinchangeSlide(direction) {
   const justinslides = document.querySelectorAll('.justIn_slide');
   const justIntotalSlides = justinslides.length;
-  justIncurrentIndex = (justIncurrentIndex + direction + justIntotalSlides) % justIntotalSlides;
-  const offset = -justIncurrentIndex *100;
+  justIncurrentIndex = (justIncurrentIndex + direction*4 + justIntotalSlides) % justIntotalSlides;
+  const offset = -justIncurrentIndex *25;
   justIn.style.transform = `translateX(${offset}%)`;
 }
-
-
-
 
 
 
@@ -155,17 +142,6 @@ fetch('db.json')
       supersavers.appendChild(supersliderElement);
     });
   });
-// function superchangeSlide(direction) {
-//   const supersaversslides = document.querySelectorAll('.super_slide');
-//   const supertotalSlides = supersaversslides.length;
-//   supersaverscurrentIndex = (supersaverscurrentIndex + direction + supertotalSlides) % supertotalSlides;
-//   const offset = -supersaverscurrentIndex *100;
-//   supersavers.style.transform = `translateX(${offset}%)`;
-// }
-
-
-
-
 
 
 
@@ -193,14 +169,10 @@ fetch('db.json')
 function toppicksSlide(direction) {
   const toppicksslides = document.querySelectorAll('.toppicks_slide');
   const toppickstotaltoppicksslides = toppicksslides.length;
-  toppickscurrentIndex = (toppickscurrentIndex + direction + toppickstotaltoppicksslides) % toppickstotaltoppicksslides;
-  const offset = -toppickscurrentIndex *100;
+  toppickscurrentIndex = (toppickscurrentIndex + direction *3 + toppickstotaltoppicksslides) % toppickstotaltoppicksslides;
+  const offset = -toppickscurrentIndex *33.1;
   toppicks.style.transform = `translateX(${offset}%)`;
 }
-
-
-
-
 
 
 // SUGAR BEAUTY BLOG //
@@ -227,14 +199,10 @@ fetch('db.json')
 function sugarBeautySlide(direction) {
   const sugarBeautyslides = document.querySelectorAll('.sugarBeauty_slide');
   const sugarBeautytotalsugarBeautyslides = sugarBeautyslides.length;
-  sugarBeautycurrentIndex = (sugarBeautycurrentIndex + direction + sugarBeautytotalsugarBeautyslides) % sugarBeautytotalsugarBeautyslides;
-  const offset = -sugarBeautycurrentIndex *100;
+  sugarBeautycurrentIndex = (sugarBeautycurrentIndex + direction * 3+ sugarBeautytotalsugarBeautyslides) % sugarBeautytotalsugarBeautyslides;
+  const offset = -sugarBeautycurrentIndex *33.1;
   sugarBeauty.style.transform = `translateX(${offset}%)`;
 }
-
-
-
-
 
 
 // SKINCARE BASICS JAVASCRIPT //
@@ -259,18 +227,6 @@ fetch('db.json')
       skincareData.appendChild(skinsliderElement);
     });
   });
-// function skinchangeSlide(direction) {
-//   const skincareDataslides = document.querySelectorAll('.skin_slide');
-//   const skintotalSlides = skincareDataslides.length;
-//   skincareDatacurrentIndex = (skincareDatacurrentIndex + direction + skintotalSlides) % skintotalSlides;
-//   const offset = -skincareDatacurrentIndex *100;
-//   skincareData.style.transform = `translateX(${offset}%)`;
-// }
-
-
-
-
-
 
 
 // MERCH STATION BASICS JAVASCRIPT //
@@ -298,7 +254,7 @@ fetch('db.json')
 function merchchangeSlide(direction) {
   const merchDataslides = document.querySelectorAll('.merch_slide');
   const merchtotalSlides = merchDataslides.length;
-  merchDatacurrentIndex = (merchDatacurrentIndex + direction + merchtotalSlides) % merchtotalSlides;
-  const offset = -merchDatacurrentIndex *100;
+  merchDatacurrentIndex = (merchDatacurrentIndex + direction * 4 + merchtotalSlides) % merchtotalSlides;
+  const offset = -merchDatacurrentIndex *25;
   merchData.style.transform = `translateX(${offset}%)`;
 }

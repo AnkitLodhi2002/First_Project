@@ -37,7 +37,7 @@ function showSlides() {
   slideIndex++;
   if (slideIndex > slides.length) slideIndex = 1;
   slides[slideIndex - 1].style.display = "block";
-  setTimeout(showSlides, 2000);
+  setTimeout(showSlides, 1000);
 }
 
 showSlides();
@@ -45,8 +45,6 @@ showSlides();
 
 
 // newly_slides javaScript//
-
-
 document.addEventListener("DOMContentLoaded", function() {
     const prevBtn = document.querySelector(".prevNewly");
     const nextBtn = document.querySelector(".nextNewly");

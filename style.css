@@ -10,12 +10,9 @@ body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: smaller;
 }
-.main_second{
-    /* border: 1px solid red; */
-    
+.main_second{  
     background-color:rgb(12, 12, 12) ;
     height: auto;
-    /* position: relative; */
     width: 100%;
     padding: 0px 0px 50px 0px;
 }
@@ -27,26 +24,20 @@ body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .second_slider {
-    /* border: 1px solid rgb(43, 0, 255); */
-    /* position: relative; */
     width: 90%;
     height: 400px;
 }
 .product_slider {
-    /* border: 1px solid rgb(72, 255, 0); */
     overflow: hidden;
     height: 100%;
 }
 .product_slides {
-    /* border: 1px solid rgb(0, 0, 0); */
     display: flex;
     transition: transform 0.5s ease;
-    /* padding: 10px; */
     height: 100%;
     
 }
 .product_slide {
-    /* border: 1px solid red; */
     flex: 0 0 auto;
     margin: 20px;
     height: 90%;
@@ -63,6 +54,7 @@ body{
     margin-top: -15%;
     border-radius: 100%;
 }
+
 .next1{
     position: absolute;
     background-color: white;
@@ -107,25 +99,12 @@ body{
     padding: 10px 10px 0px 0px;
 }
 
-
-
-
 /* HOLI SPECIAL DEALS! CSS */
 
-body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: white;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: smaller;
-}
+
 .main_forth{
-    /* border: 1px solid red; */
-    
     background-color:rgb(12, 12, 12);
     height: auto;
-    /* position: relative; */
     width: 100%;
     padding: 0px 0px 50px 0px;
 }
@@ -136,26 +115,20 @@ body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .forth_slider {
-    /* border: 1px solid rgb(43, 0, 255); */
-    /* position: relative; */
     width: 90%;
     height: 400px;
 }
 .holi_slider {
-    /* border: 1px solid rgb(72, 255, 0); */
     overflow: hidden;
     height: 100%;
 }
 .holi {
-    /* border: 1px solid rgb(0, 0, 0); */
     display: flex;
     transition: transform 0.5s ease;
-    /* padding: 10px; */
     height: 100%;
     
 }
 .holiproduct_slide {
-    /* border: 1px solid red; */
     flex: 0 0 auto;
     margin: 20px;
     height: 90%;
@@ -183,15 +156,7 @@ body{
     margin-top: -15%;
     border-radius: 100%;
 }
-.image{
-    background-color: rgb(253, 253, 253);
-    gap: 40px;
-    color: black;
-    border-radius: 10px;
-    padding: 5px;
-    margin: 8px;
-    
-}
+
 .holiproduct_slide img {
     width: 60%;
     border-radius: 10px;
@@ -217,25 +182,11 @@ body{
 }
 
 
-
-
-
 /* HOT DEALS CSS */
 
-body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: white;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: smaller;
-} 
 .main_five{
-    /* border: 1px solid red; */
-    
     background-color: rgb(228, 214, 214);
     height: auto;
-    /* position: relative; */
     width: 100%;
     padding: 0px 0px 50px 0px;
 }
@@ -247,26 +198,20 @@ body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .five_slider {
-    /* border: 1px solid rgb(43, 0, 255); */
-    /* position: relative; */
     width: 90%;
     height: 400px;
 }
 .hotdeals_slider {
-    /* border: 1px solid rgb(72, 255, 0); */
     overflow: hidden;
     height: 100%;
 }
 .hot_deals {
-    /* border: 1px solid rgb(0, 0, 0); */
     display: flex;
     transition: transform 0.5s ease;
-    /* padding: 10px; */
     height: auto;
     
 }
 .hotdeals_slide {
-    /* border: 1px solid red; */
     flex: 0 0 auto;
     margin: 20px;
     height: auto;
@@ -274,79 +219,42 @@ body{
 }
 .prev3 {
     position: absolute;
-    background-color: white;
+    background-color: rgb(173, 173, 173);
     color: red;
-    height: 40px;
-    width: 40px;
-    right: 30px;
+    border: black;
+    height: 30px;
+    width: 30px;
+    right: 120px;
     display: block;
     margin-top: -20%;
     border-radius: 100%;
 }
 .next3{
     position: absolute;
-    background-color: white;
+    background-color: rgb(173, 173, 173);
     color: red;
-    height: 40px;
-    width: 40px;
-    left: 30px;
+    border: black;
+    height: 30px;
+    width: 30px;
+    left: 120px;
     display: block;
     margin-top: -20%;
     border-radius: 100%;
 }
-.image{
-    background-color: rgb(253, 253, 253);
-    gap: 40px;
-    color: black;
-    border-radius: 10px;
-    padding: 5px;
-    margin: 8px;
-    
-}
+
 .hotdeals_slide img {
     width: 100%;
     border-radius: 10px;
     margin-top: 5px;
     
 }
-/* .hotdeals_slide .product-details {
-    padding:15px 5px 5px 5px;
-    font-size: smaller;
-    
-} */
-
-/* .hotdeals_slide .product-details p {
-    margin-top: 5px;
-    background-color: black;
-    color: white;
-    border-radius: 5px;
-    width: 50%;
-    height: 30px;
-    margin-top: 20px;
-    display: block;
-    padding: 10px 10px 0px 0px;
-} */
-
-
-
-
 
 /* JUST-IN CSS */
 
-body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: white;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: smaller;
-}
+
 .main_six{
-    /* border: 1px solid red; */
-    
-    background-color:rgb(12, 12, 12);
+    -color:rgb(12, 12, 12);
     height: auto;
-    /* position: relative; */
     width: 100%;
     padding: 0px 0px 50px 0px;
 }
@@ -357,26 +265,20 @@ body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .justIn_slider {
-    /* border: 1px solid rgb(43, 0, 255); */
-    /* position: relative; */
     width: 90%;
     height: 400px;
 }
 .just_slider {
-    /* border: 1px solid rgb(72, 255, 0); */
     overflow: hidden;
     height: 100%;
 }
 .justIn {
-    /* border: 1px solid rgb(0, 0, 0); */
     display: flex;
     transition: transform 0.5s ease;
-    /* padding: 10px; */
     height: 100%;
     
 }
 .justIn_slide {
-    /* border: 1px solid red; */
     flex: 0 0 auto;
     margin: 20px;
     height: 90%;
@@ -404,15 +306,7 @@ body{
     margin-top: -15%;
     border-radius: 100%;
 }
-.image{
-    background-color: rgb(253, 253, 253);
-    gap: 40px;
-    color: black;
-    border-radius: 10px;
-    padding: 5px;
-    margin: 8px;
-    
-}
+
 .justIn_slide img {
     width: 60%;
     border-radius: 10px;
@@ -443,8 +337,6 @@ body{
 
 /* YOUTUBE VIDEO */
 .youtube_video {
-    /* border: 1px solid rgb(43, 0, 255); */
-    /* position: relative; */
     width: 90%;
     height: 400px;
 }
@@ -454,24 +346,11 @@ body{
     border-radius: 10px;
 }
 
-
-
 /*  SUPER SAVES CSS*/
 
-body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: white;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: smaller;
-}
 .main_seven{
-    /* border: 1px solid red; */
-    
     background-color:rgb(12, 12, 12);
     height: auto;
-    /* position: relative; */
     width: 100%;
     padding: 0px 0px 50px 0px;
 }
@@ -482,26 +361,20 @@ body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .super_slider {
-    /* border: 1px solid rgb(43, 0, 255); */
-    /* position: relative; */
     width: 90%;
     height: 400px;
 }
 .supersaver_slider {
-    /* border: 1px solid rgb(72, 255, 0); */
     overflow: hidden;
     height: 100%;
 }
 .super {
-    /* border: 1px solid rgb(0, 0, 0); */
     display: flex;
     transition: transform 0.5s ease;
-    /* padding: 10px; */
     height: 100%;
     
 }
 .super_slide {
-    /* border: 1px solid red; */
     flex: 0 0 auto;
     margin: 20px;
     height: 90%;
@@ -529,15 +402,7 @@ body{
     margin-top: -15%;
     border-radius: 100%;
 }
-.image{
-    background-color: rgb(253, 253, 253);
-    gap: 40px;
-    color: black;
-    border-radius: 10px;
-    padding: 5px;
-    margin: 8px;
-    
-}
+
 .super_slide img {
     width: 60%;
     border-radius: 10px;
@@ -563,27 +428,12 @@ body{
 }
 
 
-
-
-
-
-
 /* TOP PICKS OF THE WEEK */
 
-body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: white;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: smaller;
-}
+
 .main_eight{
-    /* border: 1px solid red; */
-    
     background-color: rgb(228, 214, 214);
     height: auto;
-    /* position: relative; */
     width: 100%;
     padding: 0px 0px 50px 0px;
 }
@@ -595,26 +445,20 @@ body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .eight_slider {
-    /* border: 1px solid rgb(43, 0, 255); */
-    /* position: relative; */
     width: 90%;
     height: 400px;
 }
 .toppicks_slider {
-    /* border: 1px solid rgb(72, 255, 0); */
     overflow: hidden;
     height: 100%;
 }
 .toppicks {
-    /* border: 1px solid rgb(0, 0, 0); */
     display: flex;
     transition: transform 0.5s ease;
-    /* padding: 10px; */
     height: auto;
     
 }
 .toppicks_slide {
-    /* border: 1px solid red; */
     flex: 0 0 auto;
     margin: 20px;
     height: auto;
@@ -622,81 +466,43 @@ body{
 }
 .prev8 {
     position: absolute;
-    background-color: white;
+    background-color: rgb(173, 173, 173);
     color: red;
-    height: 40px;
-    width: 40px;
-    right: 30px;
+    border: black;
+    height: 30px;
+    width: 30px;
+    right: 90px;
     display: block;
     margin-top: -20%;
     border-radius: 100%;
 }
 .next8{
     position: absolute;
-    background-color: white;
+    background-color: rgb(173, 173, 173);
     color: red;
-    height: 40px;
-    width: 40px;
-    left: 30px;
+    border: black;
+    height: 30px;
+    width: 30px;
+    left: 90px;
     display: block;
     margin-top: -20%;
     border-radius: 100%;
 }
-.image{
-    background-color: rgb(253, 253, 253);
-    gap: 40px;
-    color: black;
-    border-radius: 10px;
-    padding: 5px;
-    margin: 8px;
-    
-}
+
 .toppicks_slide img {
     width: 100%;
     border-radius: 10px;
     margin-top: 5px;
     
 }
-/* .toppicks_slide .product-details {
-    padding:15px 5px 5px 5px;
-    font-size: smaller;
-    
-} */
-
-/* .toppicks_slide .product-details p {
-    margin-top: 5px;
-    background-color: black;
-    color: white;
-    border-radius: 5px;
-    width: 50%;
-    height: 30px;
-    margin-top: 20px;
-    display: block;
-    padding: 10px 10px 0px 0px;
-} */
-
-
-
-
-
 
 
 /* SUGAR BEAUTY BLOG */
 
-body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: white;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: smaller;
-}
+
 .main_nine{
-    /* border: 1px solid red; */
-    
     background-color: rgb(228, 214, 214);
     height: auto;
-    /* position: relative; */
     width: 100%;
     padding: 0px 0px 50px 0px;
 }
@@ -708,26 +514,20 @@ body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .nine_slider {
-    /* border: 1px solid rgb(43, 0, 255); */
-    /* position: relative; */
     width: 90%;
     height: 400px;
 }
 .sugarBeauty_slider {
-    /* border: 1px solid rgb(72, 255, 0); */
     overflow: hidden;
     height: 100%;
 }
 .sugarBeauty {
-    /* border: 1px solid rgb(0, 0, 0); */
     display: flex;
     transition: transform 0.5s ease;
-    /* padding: 10px; */
     height: auto;
     
 }
 .sugarBeauty_slide {
-    /* border: 1px solid red; */
     flex: 0 0 auto;
     margin: 20px;
     height: auto;
@@ -735,81 +535,43 @@ body{
 }
 .prev9 {
     position: absolute;
-    background-color: white;
+    background-color: rgb(173, 173, 173);
     color: red;
-    height: 40px;
-    width: 40px;
-    right: 30px;
+    border: black;
+    height: 30px;
+    width: 30px;
+    right: 120px;
     display: block;
     margin-top: -20%;
     border-radius: 100%;
 }
 .next9{
     position: absolute;
-    background-color: white;
+    background-color: rgb(173, 173, 173);
     color: red;
-    height: 40px;
-    width: 40px;
-    left: 30px;
+    border: black;
+    height: 30px;
+    width: 30px;
+    left: 120px;
     display: block;
     margin-top: -20%;
     border-radius: 100%;
 }
-.image{
-    background-color: rgb(253, 253, 253);
-    gap: 40px;
-    color: black;
-    border-radius: 10px;
-    padding: 5px;
-    margin: 8px;
-    
-}
+
 .sugarBeauty_slide img {
     width: 100%;
     border-radius: 10px;
     margin-top: 5px;
     
 }
-/* .sugarBeauty_slide .product-details {
-    padding:15px 5px 5px 5px;
-    font-size: smaller;
-    
-} */
-
-/* .sugarBeauty_slide .product-details p {
-    margin-top: 5px;
-    background-color: black;
-    color: white;
-    border-radius: 5px;
-    width: 50%;
-    height: 30px;
-    margin-top: 20px;
-    display: block;
-    padding: 10px 10px 0px 0px;
-} */
-
-
-
-
-
 
 
 /* SKINCARE BASICS CSS */
 
-body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: white;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: smaller;
-}
+
 .main_ten{
-    /* border: 1px solid red; */
-    
     background-color:rgb(12, 12, 12);
     height: auto;
-    /* position: relative; */
     width: 100%;
     padding: 0px 0px 50px 0px;
 }
@@ -820,26 +582,20 @@ body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .skincare_slider {
-    /* border: 1px solid rgb(43, 0, 255); */
-    /* position: relative; */
     width: 90%;
     height: 400px;
 }
 .skin_slider {
-    /* border: 1px solid rgb(72, 255, 0); */
     overflow: hidden;
     height: 100%;
 }
 .skin {
-    /* border: 1px solid rgb(0, 0, 0); */
     display: flex;
     transition: transform 0.5s ease;
-    /* padding: 10px; */
     height: 100%;
     
 }
 .skin_slide {
-    /* border: 1px solid red; */
     flex: 0 0 auto;
     margin: 20px;
     height: 90%;
@@ -867,15 +623,7 @@ body{
     margin-top: -15%;
     border-radius: 100%;
 }
-.image{
-    background-color: rgb(253, 253, 253);
-    gap: 40px;
-    color: black;
-    border-radius: 10px;
-    padding: 5px;
-    margin: 8px;
-    
-}
+
 .skin_slide img {
     width: 60%;
     border-radius: 10px;
@@ -901,59 +649,38 @@ body{
 }
 
 
-
-
-
-
-
-
 /* MERCH STATION BASICS CSS */
 
-body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: white;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: smaller;
-}
+
 .main_merch{
-    /* border: 1px solid red; */
     
-    background-color: black(251, 249, 249);
+    background-color: rgb(247, 246, 246);
     height: auto;
-    /* position: relative; */
     width: 100%;
     padding: 0px 0px 50px 0px;
 }
 .heading_merchStation{
     height: 30px;
-    color: white;
+    color: black;
     font-size: 25px;
     padding: 20px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .merchStation_slider {
-    /* border: 1px solid rgb(43, 0, 255); */
-    /* position: relative; */
     width: 90%;
     height: 400px;
 }
 .merch_slider {
-    /* border: 1px solid rgb(72, 255, 0); */
     overflow: hidden;
     height: 100%;
 }
 .merch {
-    /* border: 1px solid rgb(0, 0, 0); */
     display: flex;
     transition: transform 0.5s ease;
-    /* padding: 10px; */
     height: 100%;
     
 }
 .merch_slide {
-    /* border: 1px solid red; */
     flex: 0 0 auto;
     margin: 20px;
     height: 90%;
@@ -982,7 +709,7 @@ body{
     border-radius: 100%;
 }
 .image{
-    background-color: rgb(253, 253, 253);
+    background-color: white;
     gap: 40px;
     color: black;
     border-radius: 10px;
@@ -1012,4 +739,84 @@ body{
     margin-top: 20px;
     display: block;
     padding: 10px 10px 0px 0px;
+}
+
+
+/* FOOTER */
+
+#inputEmail{
+    width: 60%;
+    height: 30px;
+    border-radius: 5px 0px 0px 5px;
+    border: 1px solid black;
+    
+}
+#footer_firstDiv{
+    background-color: rgb(247, 246, 246);
+    color: black;
+    height: 300px;
+}
+#footer_secondDiv>div>img{
+    height: 100px;
+}
+.fa{
+    padding: 10px;
+  font-size: 10px;
+  width: 10px;
+  height: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 20px 10px 20px 10px;
+  background-color: white;
+  border-radius: 100%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+#GET{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+#App>div>img{
+    height: 40px;
+    background-color: black;
+}
+#AppDiv{
+    width: 60%;
+    display: flex;
+    margin: auto;
+    background-color: black;
+    justify-content: center;
+    
+}
+#footer{
+    background-color: black;
+}
+#App{
+    background-color: black;
+    
+}
+#navLink1{
+    justify-content: center;
+}
+#navLink1{
+    display: flex;
+    gap: 100px;
+    list-style: none;
+   
+}
+#navLink1>li>a{
+    font-size: large;
+    text-decoration: none;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#GET>div>p>span{
+    text-decoration: none;
+    font-size: large;
+}
+#footer_firstDiv>b>span{
+    color: red;
+    font-size: large;
 }
